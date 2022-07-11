@@ -1,0 +1,215 @@
+
+.mobile-menu.container{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background: #fff;
+}
+.mobile-menu ul {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.mobile-menu a {
+    text-decoration: none;
+    display: block;
+    padding: 1em 1em 1em 1.2em;
+    outline: none;
+    color: #f3efe0;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(255,255,255,0.1);
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.mobile-menu ul li{
+    color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    
+}
+.mobile-menu ul li a:hover {
+/*     background-color:  #fff; */
+}
+span.drw-Card_Icon {
+    display: block;
+    width: 30px;
+    height: 12px;
+    margin-left: auto;
+    color: #161e27;
+}
+.mobile-menu li span {
+    font-size: 1.5em;
+    line-height: .25em;
+}
+.mobile-menu .hidden-menu
+{
+   margin-left:-300px;
+   transition: all 0.8s ease;
+ }
+
+.mobile-menu .side-menu
+{
+  position:absolute;
+  top:0px;
+  background:#eeeeee;
+  color:white;
+  width: 299px;
+  height:350px;
+  background: transparent;
+  background-color:  #fff;
+}
+.mobile-menu .side-menu ul {
+    border-top: 1px solid #600f4e;
+}
+.mobile-menu .side-menu ul li a {
+    background-color: #fff !important;
+}
+.mobile-menu .side-menu:last-child ul li a {
+    background-color: #fff;
+}
+
+.side-menu {
+    background: #fff !important;
+}
+.mobile-menu .show-menu
+{
+  margin-left:0 !important;
+    
+}
+
+
+.new-nav {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  right: 100%;
+  top: 0;
+  z-index:9;
+  transition: .2s ease;
+  Background: #fff;
+}
+
+.new-nav.slide-in{
+  transform: translateX(100%);
+}
+
+
+.new-main-nav .new-main-nav__item a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    background-color: #fcfafb;
+}
+
+.link-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.link-title {
+    font-size: 12px !important;
+    line-height: 1rem;
+    display: block;
+    padding-left: 20px;
+    letter-spacing: .0575rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.new-main-nav > li {
+    margin: 10px !important;
+}
+
+header.drw-Drawer_Header {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 64px;
+    padding: 15px;
+    background-color: #fcfafb;
+}
+.util-ScreenReaderOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px,1px,1px,1px);
+    overflow: hidden;
+}
+.drw-Drawer_Input {
+    width: 100%;
+    padding: 5px 40px 5px 10px;
+    background-color: #fff;
+    border: 0;
+}
+.drw-Drawer_Search {
+    position: absolute;
+    top:5px;
+    right: 15px;
+    background-color: transparent;
+}
+.drw-Drawer_Form {
+    position: relative;
+    width: 185px;
+}
+.drw-Drawer_SearchIcon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    color: #161e27;
+    color: var(--Color_Brand);
+}
+.drw-Drawer_Close {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    color: #000;
+}
+
+.drw-Menu_Heading {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: var(--Font_Family-headings);
+    padding: 5px 20px;
+    color: #000;
+}
+
+.drw-Menu_Heading .new-nav__title {
+    font-size: 12px;
+    letter-spacing: .03125rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 0px;
+}
+
+.drw-Menu_Heading .submenu__back {
+    font-size: 22px;
+    font-weight: 500;
+}
+.read-more-collection {
+    color: orange;
+}
+
+.new-main-nav{
+  overflow-y: scroll;
+  height: 92vh;
+}
